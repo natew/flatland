@@ -8,11 +8,11 @@
         "layer0.texture": "Theme - Flatland/Flatland Dark/tabset-background.png",
         "layer0.inner_margin": [10, 0],
         "layer0.opacity": 1.0,
-        "content_margin": [0, 4, 0, 0],
-        "tab_overlap": 6,
-        "tab_width": 160,
+        "content_margin": [0, 0, 0, 0],
+        "tab_overlap": 0,
+        "tab_width": 140,
         "tab_min_width": 48,
-        "tab_height": 34,
+        "tab_height": 24,
         "mouse_wheel_switch": false
     },
     {
@@ -43,7 +43,7 @@
         // Tab close state
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
-        "content_margin": [12, -5, 8, 4]
+        "content_margin": [8, 3, 5, 4]
     },
     {
         // Hover tab state
@@ -284,6 +284,7 @@
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "Theme - Flatland/Flatland Dark/overlay-puck-vertical.png",
         "layer0.inner_margin": [0, 5],
+        "layer0.opacity": 0.8,
         "content_margin": [5, 20],
         "blur": true
     },
@@ -418,7 +419,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [49, 52 ,55],
+        "layer0.tint": [49, 52, 55],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 0, 0],
@@ -446,7 +447,7 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.5
     },
     // Sidebar heading
     {
