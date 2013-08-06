@@ -164,6 +164,11 @@
         // Hover tab setting
         "layer2.texture": "Theme - Flatland/Flatland Dark/square/tab-hover.png"
     },
+    {
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "flatland_square_tabs"],
+        "content_margin": [10,0]
+    },
 
 //
 // FOLD BUTTONS
