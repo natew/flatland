@@ -57,6 +57,13 @@ The following options can be set in your user preferences:
   "flatland_square_tabs": true,
 
   // Monokai color scheme (SublimeText's default) with Flatland background color
-  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme"
+  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+
+  // Ability to change row height of sidebar tree
+  // Options: xsmall, small, medium, large, xlarge
+  "flatland_sidebar_tree_xsmall" : true
 }
 ```
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
